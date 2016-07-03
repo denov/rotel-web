@@ -1,0 +1,413 @@
+
+POWER & VOLUME COMMANDS 
+FE 03 C9 10 0A E6 	Power Toggle 
+FE 03 C9 10 4A 26 	Power Off 
+FE 03 C9 10 4B 27 	Power On 
+FE 03 C9 10 0B E7 	Volume Up 
+FE 03 C9 10 0C E8 	Volume Down 
+FE 03 C9 10 1E FA 	Mute Toggle 
+FE 03 C9 10 71 4D 	Power Off All Zones 
+
+SOURCE SELECTION COMMANDS 
+FE 03 C9 10 02 DE 	Source CD 
+FE 03 C9 10 03 DF 	Source Tuner 
+FE 03 C9 10 04 E0 	Source Tape 
+FE 03 C9 10 05 E1 	Source Video 1 
+FE 03 C9 10 06 E2 	Source Video 2 
+FE 03 C9 10 07 E3 	Source Video 3 
+FE 03 C9 10 08 E4 	Source Video 4 
+FE 03 C9 10 09 E5 	Source Video 5 
+FE 03 C9 10 15 F1 	Source Multi Input 
+
+SURROUND MODE COMMANDS 
+FE 03 C9 10 11 ED 	Stereo 
+FE 03 C9 10 12 EE 	Dolby 3 Stereo 
+FE 03 C9 10 13 EF 	Dolby Pro Logic 
+FE 03 C9 10 14 F0 	DSP Mode Toggle 
+FE 03 C9 10 53 2F 	Dolby 3 Stereo / Pro Logic Toggle 
+FE 03 C9 10 54 30 	dts Neo:6 Music/Cinema Toggle 
+FE 03 C9 10 57 33 	DSP 1 
+FE 03 C9 10 58 34 	DSP 2 
+FE 03 C9 10 59 35 	DSP 3 
+FE 03 C9 10 5A 36 	DSP 4 
+FE 03 C9 10 5B 37 	5 Channel Stereo 
+FE 03 C9 10 5C 38 	7 Channel Stereo 
+FE 03 C9 10 5D 39 	Dolby PLIIx Cinema 
+FE 03 C9 10 5E 3A 	Dolby PLIIx Music 
+FE 03 C9 10 74 50 	Dolby PLIIx Game 
+FE 03 C9 10 5F 3B 	Dolby Pro Logic 
+FE 03 C9 10 60 3C 	dts Neo:6 Music 
+FE 03 C9 10 61 3D 	dts Neo:6 Cinema 
+FE 03 C9 10 62 3E 	PLIIx Panorama Toggle 
+FE 03 C9 10 63 3F 	PLIIx Dimension Up 
+FE 03 C9 10 64 40 	PLIIx Dimension Down 
+FE 03 C9 10 65 41 	PLIIx Center Width Up 
+FE 03 C9 10 66 42 	PLIIx Center Width Down 
+FE 03 C9 10 68 44 	Dolby Digital EX Toggle 
+FE 03 C9 10 22 FD 01 	Next Surround Mode 
+
+TONE CONTROL COMMANDS 
+FE 03 C9 10 0D E9 	Treble Up 
+FE 03 C9 10 0E EA 	Treble Down 
+FE 03 C9 10 0F EB 	Bass Up 
+FE 03 C9 10 10 EC 	Bass Down 
+FE 03 C9 10 67 43 	Tone Control Select OSD 
+
+MENU COMMANDS 
+FE 03 C9 10 18 F4 	OSD Menu 
+FE 03 C9 10 19 F5 	Enter 
+FE 03 C9 10 1A F6 	Cursor Right 
+FE 03 C9 10 1B F7 	Cursor Left 
+FE 03 C9 10 1C F8 	Cursor Up 
+FE 03 C9 10 1D F9 	Cursor Down 
+
+TUNER COMMANDS 
+FE 03 C9 10 28 04 	Tune Up 
+FE 03 C9 10 29 05 	Tune Down 
+FE 03 C9 10 6F 4B 	Preset Up 
+FE 03 C9 10 70 4C 	Preset Down 
+FE 03 C9 10 72 4E 	Frequency Up 
+FE 03 C9 10 73 4F 	Frequency Down 
+FE 03 C9 10 27 03 	Memory 
+FE 03 C9 10 24 00 	Band Toggle 
+FE 03 C9 10 56 32 	AM 
+FE 03 C9 10 55 31 	FM 
+FE 03 C9 10 20 FC 	Tune / Preset 
+FE 03 C9 10 69 45 	Tuning Mode Select 
+FE 03 C9 10 6A 46 	Preset Mode Select 
+FE 03 C9 10 25 01 	Frequency Direct 
+FE 03 C9 10 21 FD 	00 Preset Scan 
+FE 03 C9 10 44 20 	Tuner Display 
+FE 03 C9 10 45 21 	RDS PTY 
+FE 03 C9 10 46 22 	RDS TP 
+FE 03 C9 10 47 23 	RDS TA 
+FE 03 C9 10 26 02 	FM Mono 
+
+NUMERIC KEY COMMANDS 
+FE 03 C9 10 2A 06 	Number 1 
+FE 03 C9 10 2B 07 	Number 2 
+FE 03 C9 10 2C 08 	Number 3 
+FE 03 C9 10 2D 09 	Number 4 
+FE 03 C9 10 2E 0A 	Number 5 
+FE 03 C9 10 2F 0B 	Number 6 
+FE 03 C9 10 30 0C 	Number 7 
+FE 03 C9 10 31 0D 	Number 8 
+FE 03 C9 10 32 0E 	Number 9 
+FE 03 C9 10 33 0F 	Number 0 OTHER COMMANDS 
+FE 03 C9 10 17 F3 	Record Function Select 
+FE 03 C9 10 16 F2 	Dynamic Range 
+FE 03 C9 10 1F FB 	Digital Input Select 
+FE 03 C9 10 23 FF 	Zone 2 / Main 
+FE 03 C9 10 4C 28 	Temporary Center Trim 
+FE 03 C9 10 4D 29 	Temporary SubwooFEr Trim 
+FE 03 C9 10 4E 2A 	Temporary Surround Trim 
+FE 03 C9 10 4F 2B 	Cinema EQ Toggle 
+FE 03 C9 10 52 2E 	Front Display On/Off 
+FE 03 C9 10 FF DB 	Display Refresh 
+FE 03 C9 10 6E 4A 	Party Mode Toggle 
+FE 03 C9 10 75 51 	Output Resolution 
+FE 03 C9 10 78 54 	HDMI Amp Mode 
+FE 03 C9 10 79 55 	HDMI TV Mode 
+FE 03 C9 10 93 6F 	Force Factory Default 
+
+MAIN ZONE POWER & VOLUME COMMANDS 
+FE 03 C9 14 0A EA 	Main Zone Power Toggle 
+FE 03 C9 14 4A 2A 	Main Zone Power Off 
+FE 03 C9 14 4B 2B 	Main Zone Power On 
+FE 03 C9 14 00 E0 	Main Zone Volume Up 
+FE 03 C9 14 01 E1 	Main Zone Volume Down 
+FE 03 C9 14 1E FD 01 	Main Zone Mute Toggle 
+FE 03 C9 14 6C 4C 	Main Zone Mute On 
+FE 03 C9 14 6D 4D 	Main Zone Mute Off 
+
+MAIN ZONE SOURCE SELECTION COMMANDS 
+FE 03 C9 14 02 E2 	Main Zone Source CD 
+FE 03 C9 14 03 E3 	Main Zone Source Tuner 
+FE 03 C9 14 04 E4 	Main Zone Source Tape 
+FE 03 C9 14 05 E5 	Main Zone Source Video 1 
+FE 03 C9 14 06 E6 	Main Zone Source Video 2 
+FE 03 C9 14 07 E7 	Main Zone Source Video 3 
+FE 03 C9 14 08 E8 	Main Zone Source Video 4 
+FE 03 C9 14 09 E9 	Main Zone Source Video 5 
+FE 03 C9 14 15 F5 	Main Zone Source Multi Input
+
+RECORD SOURCE SELECTION COMMANDS 
+FE 03 C9 15 02 E3 	Record Source CD 
+FE 03 C9 15 03 E4 	Record Source Tuner 
+FE 03 C9 15 04 E5 	Record Source Tape 
+FE 03 C9 15 05 E6 	Record Source Video 1 
+FE 03 C9 15 06 E7 	Record Source Video 2 
+FE 03 C9 15 07 E8 	Record Source Video 3 
+FE 03 C9 15 08 E9 	Record Source Video 4 
+FE 03 C9 15 09 EA 	Record Source Video 5 
+FE 03 C9 15 6B 4C 	Record Follow Main Zone Source 6
+
+ZONE 2 POWER & VOLUME COMMANDS 
+FE 03 C9 16 0A EC 	Zone 2 Power Toggle 
+FE 03 C9 16 4A 2C 	Zone 2 Power Off 
+FE 03 C9 16 4B 2D 	Zone 2 Power On 
+FE 03 C9 16 00 E2 	Zone 2 Volume Up 
+FE 03 C9 16 01 E3 	Zone 2 Volume Down 
+FE 03 C9 16 1E 00 	Zone 2 Mute Toggle 
+FE 03 C9 16 6C 4E 	Zone 2 Mute On 
+FE 03 C9 16 6D 4F 	Zone 2 Mute Off 
+FE 03 C9 16 71 53 	Power Off All Zones 
+
+ZONE 2 SOURCE SELECTION COMMANDS 
+FE 03 C9 16 02 E4 	Zone 2 Source CD 
+FE 03 C9 16 03 E5 	Zone 2 Source Tuner 
+FE 03 C9 16 04 E6 	Zone 2 Source Tape 
+FE 03 C9 16 05 E7 	Zone 2 Source Video 1 
+FE 03 C9 16 06 E8 	Zone 2 Source Video 2 
+FE 03 C9 16 07 E9 	Zone 2 Source Video 3 
+FE 03 C9 16 08 EA 	Zone 2 Source Video 4 
+FE 03 C9 16 09 EB 	Zone 2 Source Video 5 
+FE 03 C9 16 6B 4D 	Zone 2 Follow Main Zone Source 
+
+ZONE 2 TUNER COMMANDS 
+FE 03 C9 16 28 0A 	Zone 2 Tune Up 
+FE 03 C9 16 29 0B Zone 2 Tune Down 
+FE 03 C9 16 6F 51 Zone 2 Preset Up 
+FE 03 C9 16 70 52 Zone 2 Preset Down 
+FE 03 C9 16 72 54 Zone 2 Frequency Up 
+FE 03 C9 16 73 55 Zone 2 Frequency Down 
+FE 03 C9 16 24 06 Zone 2 Band Toggle 
+FE 03 C9 16 56 38 Zone 2 AM 
+FE 03 C9 16 55 37 Zone 2 FM 
+FE 03 C9 16 20 02 Zone 2 Tune / Preset 
+FE 03 C9 16 69 4B Zone 2 Tuning Mode Select 
+FE 03 C9 16 6A 4C Zone 2 Preset Mode Select 
+FE 03 C9 16 21 03 Zone 2 Preset Scan 
+FE 03 C9 16 26 08 Zone 2 FM Mono 
+
+ZONE 2 NUMERIC KEY COMMANDS 
+FE 03 C9 16 2A 0C Zone 2 Number 1 
+FE 03 C9 16 2B 0D Zone 2 Number 2 
+FE 03 C9 16 2C 0E Zone 2 Number 3 
+FE 03 C9 16 2D 0F Zone 2 Number 4 
+FE 03 C9 16 2E 10 Zone 2 Number 5 
+FE 03 C9 16 2F 11 Zone 2 Number 6 
+FE 03 C9 16 30 12 Zone 2 Number 7 
+FE 03 C9 16 31 13 Zone 2 Number 8 
+FE 03 C9 16 32 14 Zone 2 Number 9 
+FE 03 C9 16 33 15 Zone 2 Number 0 
+
+ZONE 2 OTHER COMMANDS 
+FE 03 C9 16 6E 50 Party Mode Toggle
+
+ZONE 3 POWER & VOLUME COMMANDS 
+FE 03 C9 17 0A ED Zone 3 Power Toggle 
+FE 03 C9 17 4A 2D Zone 3 Power Off 
+FE 03 C9 17 4B 2E Zone 3 Power On 
+FE 03 C9 17 00 E3 Zone 3 Volume Up 
+FE 03 C9 17 01 E4 Zone 3 Volume Down 
+FE 03 C9 17 1E 01 Zone 3 Mute Toggle 
+FE 03 C9 17 6C 4F Zone 3 Mute On 
+FE 03 C9 17 6D 50 Zone 3 Mute Off 
+FE 03 C9 17 71 54 Power Off All Zones 
+
+ZONE 3 SOURCE SELECTION COMMANDS 
+FE 03 C9 17 02 E5 Zone 3 Source CD 
+FE 03 C9 17 03 E6 Zone 3 Source Tuner 
+FE 03 C9 17 04 E7 Zone 3 Source Tape 
+FE 03 C9 17 05 E8 Zone 3 Source Video 1 
+FE 03 C9 17 06 E9 Zone 3 Source Video 2 
+FE 03 C9 17 07 EA Zone 3 Source Video 3 
+FE 03 C9 17 08 EB Zone 3 Source Video 4 
+FE 03 C9 17 09 EC Zone 3 Source Video 5 
+FE 03 C9 17 6B 4E Zone 3 Follow Main Zone Source 
+
+ZONE 3 TUNER COMMANDS 
+FE 03 C9 17 28 0B Zone 3 Tune Up 
+FE 03 C9 17 29 0C Zone 3 Tune Down 
+FE 03 C9 17 6F 52 Zone 3 Preset Up 
+FE 03 C9 17 70 53 Zone 3 Preset Down 
+FE 03 C9 17 72 55 Zone 3 Frequency Up 
+FE 03 C9 17 73 56 Zone 3 Frequency Down 
+FE 03 C9 17 24 07 Zone 3 Band Toggle 
+FE 03 C9 17 56 39 Zone 3 AM 
+FE 03 C9 17 55 38 Zone 3 FM 
+FE 03 C9 17 20 03 Zone 3 Tune / Preset 
+FE 03 C9 17 69 4C Zone 3 Tuning Mode Select 
+FE 03 C9 17 6A 4D Zone 3 Preset Mode Select 
+FE 03 C9 17 21 04 Zone 3 Preset Scan 
+FE 03 C9 17 26 09 Zone 3 FM Mono 
+
+ZONE 3 NUMERIC KEY COMMANDS 
+FE 03 C9 17 2A 0D 	Zone 3 Number 1 
+FE 03 C9 17 2B 0E 	Zone 3 Number 2 
+FE 03 C9 17 2C 0F 	Zone 3 Number 3 
+FE 03 C9 17 2D 10 	Zone 3 Number 4 
+FE 03 C9 17 2E 11 	Zone 3 Number 5 
+FE 03 C9 17 2F 12 	Zone 3 Number 6 
+FE 03 C9 17 30 13 	Zone 3 Number 7 
+FE 03 C9 17 31 14 	Zone 3 Number 8 
+FE 03 C9 17 32 15 	Zone 3 Number 9 
+FE 03 C9 17 33 16 	Zone 3 Number 0 
+
+ZONE 3 OTHER COMMANDS 
+FE 03 C9 17 6E 51 	Party Mode Toggle
+
+ZONE 4 POWER & VOLUME COMMANDS 
+FE 03 C9 18 0A EE 	Zone 4 Power Toggle 
+FE 03 C9 18 4A 2E 	Zone 4 Power Off 
+FE 03 C9 18 4B 2F 	Zone 4 Power On 
+FE 03 C9 18 00 E4 	Zone 4 Volume Up 
+FE 03 C9 18 01 E5 	Zone 4 Volume Down 
+FE 03 C9 18 1E 02 	Zone 4 Mute Toggle 
+FE 03 C9 18 6C 50 	Zone 4 Mute On 
+FE 03 C9 18 6D 51 	Zone 4 Mute Off 
+FE 03 C9 18 71 55 	Power Off All Zones 
+
+ZONE 4 SOURCE SELECTION COMMANDS 
+FE 03 C9 18 02 E6 	Zone 4 Source CD 
+FE 03 C9 18 03 E7 	Zone 4 Source Tuner 
+FE 03 C9 18 04 E8 	Zone 4 Source Tape 
+FE 03 C9 18 05 E9 	Zone 4 Source Video 1 
+FE 03 C9 18 06 EA 	Zone 4 Source Video 2 
+FE 03 C9 18 07 EB 	Zone 4 Source Video 3 
+FE 03 C9 18 08 EC 	Zone 4 Source Video 4 
+FE 03 C9 18 09 ED 	Zone 4 Source Video 5 
+FE 03 C9 18 6B 4F 	Zone 4 Follow Main Zone Source 
+
+ZONE 4 TUNER COMMANDS 
+FE 03 C9 18 28 0C 	Zone 4 Tune Up 
+FE 03 C9 18 29 0D 	Zone 4 Tune Down 
+FE 03 C9 18 6F 53 	Zone 4 Preset Up 
+FE 03 C9 18 70 54 	Zone 4 Preset Down 
+FE 03 C9 18 72 56 	Zone 4 Frequency Up 
+FE 03 C9 18 73 57 	Zone 4 Frequency Down 
+FE 03 C9 18 24 08 	Zone 4 Band Toggle 
+FE 03 C9 18 56 3A 	Zone 4 AM 
+FE 03 C9 18 55 39 	Zone 4 FM 
+FE 03 C9 18 20 04 	Zone 4 Tune / Preset 
+FE 03 C9 18 69 4D 	Zone 4 Tuning Mode Select 
+FE 03 C9 18 6A 4E 	Zone 4 Preset Mode Select 
+FE 03 C9 18 21 05 	Zone 4 Preset Scan 
+FE 03 C9 18 26 0A 	Zone 4 FM Mono 
+
+ZONE 4 NUMERIC KEY COMMANDS 
+FE 03 C9 18 2A 0E 	Zone 4 Number 1 
+FE 03 C9 18 2B 0F 	Zone 4 Number 2 
+FE 03 C9 18 2C 10 	Zone 4 Number 3 
+FE 03 C9 18 2D 11 	Zone 4 Number 4 
+FE 03 C9 18 2E 12 	Zone 4 Number 5 
+FE 03 C9 18 2F 13 	Zone 4 Number 6 
+FE 03 C9 18 30 14 	Zone 4 Number 7 
+FE 03 C9 18 31 15 	Zone 4 Number 8 
+FE 03 C9 18 32 16 	Zone 4 Number 9 
+FE 03 C9 18 33 17 	Zone 4 Number 0
+ 
+ZONE 4 OTHER COMMANDS 
+FE 03 C9 18 6E 52 	Party Mode Toggle Table																			
+
+VOLUME DIRECT COMMANDS 
+FE 03 C9 30 00 FC 	Volume Min 
+FE 03 C9 30 01 FD 	00 Volume 1 
+FE 03 C9 30 02 FD 	01 Volume 2 
+FE 03 C9 30 03 FF 	Volume 3 
+FE 03 C9 30 04 00 	Volume 4 
+FE 03 C9 30 05 01 	Volume 5 
+FE 03 C9 30 06 02 	Volume 6 
+FE 03 C9 30 07 03 	Volume 7 
+FE 03 C9 30 08 04 	Volume 8 
+FE 03 C9 30 09 05 	Volume 9 
+FE 03 C9 30 0A 06 	Volume 10 
+FE 03 C9 30 0B 07 	Volume 11 
+FE 03 C9 30 0C 08 	Volume 12 
+FE 03 C9 30 0D 09 	Volume 13 
+FE 03 C9 30 0E 0A 	Volume 14 
+FE 03 C9 30 0F 0B 	Volume 15 
+FE 03 C9 30 10 0C 	Volume 16 
+FE 03 C9 30 20 1C 	Volume 32 
+FE 03 C9 30 30 2C 	Volume 48 
+FE 03 C9 30 40 3C 	Volume 64 
+FE 03 C9 30 50 4C 	Volume 80 
+FE 03 C9 30 5F 5B 	Volume 95
+
+ZONE 2 VOLUME DIRECT COMMANDS 
+FE 03 C9 32 00 FD 	01 Zone 2 Volume Min 
+FE 03 C9 32 01 FF 	Zone 2 Volume 1 
+FE 03 C9 32 02 00 	Zone 2 Volume 2 
+FE 03 C9 32 03 01 	Zone 2 Volume 3 
+FE 03 C9 32 04 02 	Zone 2 Volume 4 
+FE 03 C9 32 05 03 	Zone 2 Volume 5 
+FE 03 C9 32 06 04 	Zone 2 Volume 6 
+FE 03 C9 32 07 05 	Zone 2 Volume 7 
+FE 03 C9 32 08 06 	Zone 2 Volume 8 
+FE 03 C9 32 09 07 	Zone 2 Volume 9 
+FE 03 C9 32 0A 08 	Zone 2 Volume 10 
+FE 03 C9 32 0B 09 	Zone 2 Volume 11 
+FE 03 C9 32 0C 0A 	Zone 2 Volume 12 
+FE 03 C9 32 0D 0B 	Zone 2 Volume 13 
+FE 03 C9 32 0E 0C 	Zone 2 Volume 14 
+FE 03 C9 32 0F 0D 	Zone 2 Volume 15 
+FE 03 C9 32 10 0E 	Zone 2 Volume 16 
+FE 03 C9 32 20 1E 	Zone 2 Volume 32 
+FE 03 C9 32 30 2E 	Zone 2 Volume 48 
+FE 03 C9 32 40 3E 	Zone 2 Volume 64 
+FE 03 C9 32 50 4E 	Zone 2 Volume 80 
+FE 03 C9 32 5F 57 	Zone 2 Volume 89
+
+ZONE 3 VOLUME DIRECT COMMANDS 
+FE 03 C9 33 00 FF 	Zone 3 Volume Min 
+FE 03 C9 33 01 00 	Zone 3 Volume 1 
+FE 03 C9 33 02 01 	Zone 3 Volume 2 
+FE 03 C9 33 03 02 	Zone 3 Volume 3 
+FE 03 C9 33 04 03 	Zone 3 Volume 4 
+FE 03 C9 33 05 04 	Zone 3 Volume 5 
+FE 03 C9 33 06 05 	Zone 3 Volume 6 
+FE 03 C9 33 07 06 	Zone 3 Volume 7 
+FE 03 C9 33 08 07 	Zone 3 Volume 8 
+FE 03 C9 33 09 08 	Zone 3 Volume 9 
+FE 03 C9 33 0A 09 	Zone 3 Volume 10 
+FE 03 C9 33 10 0F 	Zone 3 Volume 16 
+FE 03 C9 33 20 1F 	Zone 3 Volume 32 
+FE 03 C9 33 30 2F 	Zone 3 Volume 48 
+FE 03 C9 33 40 3F 	Zone 3 Volume 64 
+FE 03 C9 33 50 4F 	Zone 3 Volume 80 
+FE 03 C9 33 5F 58 	Zone 3 Volume 89
+
+ZONE 4 VOLUME DIRECT COMMANDS 
+FE 03 C9 34 00 00 	Zone 4 Volume Min 
+FE 03 C9 34 01 01 	Zone 4 Volume 1 
+FE 03 C9 34 02 02 	Zone 4 Volume 2 
+FE 03 C9 34 03 03 	Zone 4 Volume 3 
+FE 03 C9 34 04 04 	Zone 4 Volume 4 
+FE 03 C9 34 05 05 	Zone 4 Volume 5 
+FE 03 C9 34 06 06 	Zone 4 Volume 6 
+FE 03 C9 34 07 07 	Zone 4 Volume 7 
+FE 03 C9 34 08 08 	Zone 4 Volume 8 
+FE 03 C9 34 09 09 	Zone 4 Volume 9 
+FE 03 C9 34 0A 0A 	Zone 4 Volume 10 
+FE 03 C9 34 10 10 	Zone 4 Volume 16 
+FE 03 C9 34 20 20 	Zone 4 Volume 32 
+FE 03 C9 34 30 30 	Zone 4 Volume 48 
+FE 03 C9 34 40 40	Zone 4 Volume 64 
+FE 03 C9 34 50 50 	Zone 4 Volume 80 
+
+TRIGGER DIRECT COMMANDS 
+FE 03 C9 40 00 0C 	Main Zone 12V Trigger 1 Toggle 
+FE 03 C9 40 01 0D 	Main Zone 12V Trigger 2 Toggle 
+FE 03 C9 40 02 0E 	Main Zone 12V Trigger 3 Toggle 
+FE 03 C9 40 03 0F 	Main Zone 12V Trigger 4 Toggle 
+FE 03 C9 40 04 10 	Main Zone 12V Trigger 5 Toggle 
+FE 03 C9 40 05 11 	Main Zone 12V Trigger 6 Toggle 
+FE 03 C9 40 06 12 	Zone 2 12V Trigger 1 Toggle 
+FE 03 C9 40 07 13 	Zone 2 12V Trigger 2 Toggle 
+FE 03 C9 40 08 14 	Zone 2 12V Trigger 3 Toggle 
+FE 03 C9 40 09 15 	Zone 2 12V Trigger 4 Toggle 
+FE 03 C9 40 0A 16 	Zone 2 12V Trigger 5 Toggle 
+FE 03 C9 40 0B 17 	Zone 2 12V Trigger 6 Toggle 
+FE 03 C9 40 0C 18 	Zone 3 12V Trigger 1 Toggle 
+FE 03 C9 40 0D 19 	Zone 3 12V Trigger 2 Toggle 
+FE 03 C9 40 0E 1A 	Zone 3 12V Trigger 3 Toggle 
+FE 03 C9 40 0F 1B 	Zone 3 12V Trigger 4 Toggle 
+FE 03 C9 40 10 1C 	Zone 3 12V Trigger 5 Toggle 
+FE 03 C9 40 11 1D 	Zone 3 12V Trigger 6 Toggle 
+FE 03 C9 40 12 1E 	Zone 4 12V Trigger 1 Toggle 
+FE 03 C9 40 13 1F 	Zone 4 12V Trigger 2 Toggle 
+FE 03 C9 40 14 20 	Zone 4 12V Trigger 3 Toggle 
+FE 03 C9 40 15 21 	Zone 4 12V Trigger 4 Toggle 
+FE 03 C9 40 16 22 	Zone 4 12V Trigger 5 Toggle 
+FE 03 C9 40 17 23 	Zone 4 12V Trigger 6 Toggle

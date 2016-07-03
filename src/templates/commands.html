@@ -1,0 +1,13 @@
+<html>
+  <head>
+    <title>RSX 1505</title>
+  </head>
+  <body>
+      <h1>Commands are</h1>
+	  {% for key, value in cmds.iteritems() %}
+	  <div>
+		<a href="/rsx1505/{{ key }}">{{ key }}</a>
+	  </div>
+	  {% endfor %}
+  </body>
+</html>
