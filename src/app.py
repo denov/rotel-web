@@ -5,6 +5,7 @@ from flask import render_template
 import serial
 import binascii
 
+
 app = Flask(__name__)
 
 ser = serial.Serial(
@@ -436,8 +437,13 @@ rsx1505 = {
 
 @app.route('/')
 def index():
-    return render_template("commands.html", cmds=rsx1505)
+    return render_template("index.html")
 
+	
+@app.route('/commands')
+def commands():
+    return render_template("commands.html", cmds=rsx1505)
+	
 
 @app.route('/rsx1505/<cmd>')
 def sendCmd(cmd):
@@ -446,7 +452,7 @@ def sendCmd(cmd):
       ser.write(formatData(rsx1505[cmd]))
       return cmd
    else:
-      return "cmd not found"
+      return "cmd not found. see /commands for list"
 
 
 def formatData(data):
