@@ -1,11 +1,11 @@
 A web interface and HTTP API to talk with a Rotel RSX-1505 via RS-232.
 
-Why did I write this?  I wrote it to run a raspberry Pi and to act as bridge between my home automation system and my reciever. This allows me to control my reciever with wall switches.
+Why did I write this?  I wrote it to run a raspberry Pi and to act as bridge between my home automation system and my receiver. This allows me to control my receiver with wall switches.
 
  
-Depenancy: 
+Dependencies: 
 
- - python 2.7
+ - python 3 (pip install -r requirements.txt)
   - flask
     
 

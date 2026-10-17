@@ -1,7 +1,7 @@
 #!flask/bin/python
 from flask import Flask
-from flask import render_template
-
+from flask import render_template, redirect
+ 
 import serial
 import binascii
 
@@ -9,7 +9,8 @@ import binascii
 app = Flask(__name__)
 
 ser = serial.Serial(
-        port='/dev/ttyAMA0',
+        port='/dev/ttyS0',
+		# port='/dev/ttyAMA0',
         baudrate = 115200,
         timeout=3
 )
@@ -450,7 +451,7 @@ def sendCmd(cmd):
    global rsx1505
    if cmd in rsx1505:
       ser.write(formatData(rsx1505[cmd]))
-      return cmd
+      return redirect('/')
    else:
       return "cmd not found. see /commands for list"
 
@@ -462,4 +463,4 @@ def formatData(data):
 
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0')
+    app.run(debug=False, host='0.0.0.0')
